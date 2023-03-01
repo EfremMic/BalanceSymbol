@@ -1,3 +1,5 @@
+import javax.sound.midi.Soundbank;
+import java.sql.SQLOutput;
 import java.util.Stack;
 public class BalancingSymbol {
 
@@ -31,6 +33,7 @@ public class BalancingSymbol {
             String CharToCheck2= "{[]}";
             System.out.println(BalancedSym(CharToCheck));
             System.out.println(BalancedSym(CharToCheck2));
+            System.out.println("Hope it`s helpful");
         }
     }
 
