@@ -3,7 +3,7 @@ import java.sql.SQLOutput;
 import java.util.Stack;
 public class BalancingSymbol {
 
-        public static boolean BalancedSym( String S){
+        public static boolean BalancedSymbol( String S){
             Stack<Character> stack = new Stack<Character>();
 
             for(int i= 0; i<S.length(); i++){
@@ -31,8 +31,8 @@ public class BalancingSymbol {
         public static void main(String[] args) {
             String CharToCheck="{[{][}";
             String CharToCheck2= "{[]}";
-            System.out.println(BalancedSym(CharToCheck));
-            System.out.println(BalancedSym(CharToCheck2));
+            System.out.println(BalancedSymbol(CharToCheck));
+            System.out.println(BalancedSymbol(CharToCheck2));
             System.out.println("Hope it`s helpful");
         }
     }
