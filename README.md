@@ -1,6 +1,7 @@
 # BalanceSymbol
-
+---------------------
 Balancing Symbol Code
+______________________
 This Java code provides a method to check whether a given string containing various symbols (parentheses, square brackets, and curly brackets) is balanced. It utilizes a stack data structure to determine the balance of the symbols.
 
 Code Explanation
